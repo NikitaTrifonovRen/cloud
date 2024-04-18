@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class CloudGatewayApplication {
+    public String name = "nothing";
 
     public static void main(String[] args) {
         SpringApplication.run(CloudGatewayApplication.class, args);
